@@ -34,19 +34,29 @@
 .ex-4-square {
     width: 100px;
     height: 100px;
-    /* background: red; */
-    animation: disappear 3s;
+    background: red;
+    transition: opacity 3s;
 }
-@keyframes disappear {
-    from {background-color: red;}
-    to {background-color: none;}
+.ex-4-square:hover {
+    opacity: 0;
 }
+/* ES5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: width 2s, height 2s;
 }
+.ex-5-square:hover{
+    width: 120px;
+    height: 120px;
+}
+.ex-5-square:active{
+    width: 2px;
+    height: 2px;
+}
+/* ES6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
