@@ -79,9 +79,18 @@
     filter: contrast(2) hue-rotate(50deg) ;
     border-radius: 2rem;
 }
+/* ES9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+}
+.ex-9-img{
+    transition: filter 2s, border-radius 1s, width 3s, height 3s;
+}
+.ex-9-img:hover{
+    filter: contrast(2) hue-rotate(50deg) ;
+    border-radius: 2rem;
+    width:500px;
 }
 .ex-10-icon {
     font-size: 60px;
