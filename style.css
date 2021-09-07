@@ -56,11 +56,21 @@
     width: 2px;
     height: 2px;
 }
-/* ES6 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* ES6  */
+.ex-6-img:hover{
+    filter:grayscale();
+}
+/* ES7 */
+.ex-7-img{
+    transition: filter 2s;
+}
+.ex-7-img:hover{
+    filter: contrast(2) grayscale();
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
