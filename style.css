@@ -71,6 +71,14 @@
 .ex-7-img:hover{
     filter: contrast(2) grayscale();
 }
+/* ES8 */
+.ex-8-img{
+    transition: filter 2s, border-radius 1s;
+}
+.ex-8-img:hover{
+    filter: contrast(2) hue-rotate(50deg) ;
+    border-radius: 2rem;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
