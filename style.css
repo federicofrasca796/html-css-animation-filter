@@ -140,6 +140,7 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation: topwhite 5s linear infinite;
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -148,4 +149,20 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation: botwhite 5s linear infinite;
+}
+/* ES12 */
+@keyframes topwhite {
+    10%{left:-30%;top:-10px}
+    30%{left:-30%;top:47px}
+    60%{left:100%;top:47px}
+    70%{left:100%;top:-10px}
+    100%{left:10%;top:-10px}
+}
+@keyframes botwhite {
+    10%{right:-30%;bottom:-10px}
+    30%{right:-30%;bottom:47px}
+    60%{right:100%;bottom:47px}
+    70%{right:100%;bottom:-10px}
+    100%{right:10%;bottom:-10px}
 }
