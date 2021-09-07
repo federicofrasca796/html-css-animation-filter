@@ -34,11 +34,12 @@
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
-    transition: background-color 5s;
+    /* background: red; */
+    animation: disappear 3s;
 }
-.ex-4-square {
-    
+@keyframes disappear {
+    from {background-color: red;}
+    to {background-color: none;}
 }
 .ex-5-square {
     margin: 20px;
