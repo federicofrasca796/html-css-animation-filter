@@ -153,16 +153,16 @@
 }
 /* ES12 */
 @keyframes topwhite {
-    10%{left:-30%;top:-10px}
-    30%{left:-30%;top:47px}
+    10%{left:-30%;top:-20px}
+    20%{left:-30%;top:47px}
     60%{left:100%;top:47px}
-    70%{left:100%;top:-10px}
-    100%{left:10%;top:-10px}
+    70%{left:100%;top:-20px}
+    100%{left:10%;top:-20px}
 }
 @keyframes botwhite {
     10%{right:-30%;bottom:-10px}
-    30%{right:-30%;bottom:47px}
+    20%{right:-30%;bottom:47px}
     60%{right:100%;bottom:47px}
     70%{right:100%;bottom:-10px}
-    100%{right:10%;bottom:-10px}
+    100%{right:20%;bottom:-10px}
 }
